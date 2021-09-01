@@ -1,0 +1,46 @@
+<%# ch5* 7 %>
+<%- include('./partials/header'); -%>
+
+<body>
+  <h1>Compose</h1>
+
+<%# ch9* Kaka here created the form easily then added some properties of bootstrap, becareful she had added the BOOTSTRAP link earlier LOVE  %>
+  <form class="/compose" method="post">
+    <div class="form-group">
+      <label>Title</label>
+      <input type="text" class="form-control" name="newSam" id="">
+
+      <label>Post</label>
+      <%# she only used textarea which is specific for editing the boxes and we can write in it more lines  %>
+      <textarea class="form-control" name="newSam_1" rows= "5" cols="30" id=""></textarea></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+
+
+  <%# <form class="/compose" method="post">
+    <div>
+      <label class="loca" >Title:</label><br/>
+      <input type="text" name="newSam" id="labelboxid"/>
+    </div>
+
+    <div >
+      <label class="loca" >Post:</label><br/>
+      <input type="text" name="newSam" id="textboxid"/>
+    </div>
+    <br/> %>
+
+    <%# she said we choose submit becuase when we clike on the button it is submitted %>
+    <%# <button type="submit" name="button">Publish</button> %>
+    <%# <button type="submit" class="btn btn-primary">Primary</button> %>
+
+  <%# </form> %>
+
+</body>
+
+</html>
+
+
+<%# ch3* %>
+<%- include('./partials/footer'); -%>

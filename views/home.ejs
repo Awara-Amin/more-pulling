@@ -1,0 +1,35 @@
+<%# ch3* chl4*, chl4* was only about directory%>
+<%- include('./partials/header'); -%>
+
+
+
+<%# <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head> %>
+  <body>
+    <h1>Home</h1>
+    <p><%=startingContent %></p>
+
+
+
+<% test.forEach(function(foreachkaka){ %>
+
+<h2><%= foreachkaka.title%></h2>
+<p><%= foreachkaka.textContent.substring(0,20) + " ... "%></p>
+<% }) %>
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
+<%# ch3* %>
+<%- include('./partials/footer'); -%>
